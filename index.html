@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bento layout tailwind</title>
+    <!-- Подключение Tailwind CSS через CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- main container -->
+<div class="w-full h-screen flex justify-center items-center">
+<!-- grid layout insude the main container -->
+ <div class="w-full h-full  grid grid-cols-10 grid-rows-4 grid-4 gap-4">
+    <div class="row-span-3 col-span-4 bg-indigo-300 rounded-lg flex justify-center items-center ">Featured work</div>
+    <div class=" row-span-1 col-span-3 xl:col-span-4 bg-indigo-300 rounded-lg flex justify-center items-center">Artist name</div>
+    <div class=" row-span-1 col-span-3 xl:col-span-2 bg-indigo-300 rounded-lg flex justify-center items-center">Photo</div>
+    <div class=" row-span-2 col-span-3 bg-indigo-300 rounded-lg flex justify-center items-center">Artwork 1 </div>
+    <div class=" row-span-2 col-span-3 bg-indigo-300 rounded-lg flex justify-center items-center">Artwork 2</div>
+    <div class=" row-span-1 col-span-4 bg-indigo-300 rounded-lg flex justify-center items-center">Artwork 3</div>
+    <div class=" row-span-1 col-span-6 bg-indigo-300 rounded-lg flex justify-center items-center">Contact</div>
+ </div>
+</div>
+</body>
+</html>
